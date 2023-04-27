@@ -42,7 +42,6 @@ public class Guia10_Ejercicio_4 {
         }
 
         Collections.sort(peliculas, Comparadores.ordenarPorTitulo);
-        Collections.reverse(peliculas);
 
         System.out.println("");
         System.out.println("Ordenadas segun su título:");
@@ -51,7 +50,6 @@ public class Guia10_Ejercicio_4 {
         }
 
         Collections.sort(peliculas, Comparadores.ordenarPorDirector);
-        Collections.reverse(peliculas);
 
         System.out.println("");
         System.out.println("Ordenadas segun su director:");
