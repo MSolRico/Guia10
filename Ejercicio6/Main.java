@@ -19,14 +19,32 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in).useDelimiter("\n");
         TiendaService t1 = new TiendaService();
-        Tienda tienda = t1.crearTienda();
-        t1.mostrar(tienda);
-        System.out.println("Ingrese el producto a eliminar");
-     
-        t1.eliminarProducto(tienda, leer.next());
-        t1.mostrar(tienda);
+        Tienda tienda = new Tienda();
+        int opc;
+        do {
+            System.out.println("----------MENU----------");
+            System.out.println("1)Desea agregar productos a su lista");
+            System.out.println("2)Desea modificar un precio");
+            System.out.println("3)Desea eliminar un producto");
+            System.out.println("4)Desea ver la lista de productos");
+            opc = leer.nextInt();
+            switch (opc) {
+                case 1:
+                    t1.agregarProductos();
+                    break;
+                case 2:
+                    t1.modificarPrecio(tienda);
+                    break;
+                case 3:
+                    t1.eliminarProducto(tienda);
+                    break;
+                case 4:
+                    t1.mostrar(tienda);
+                    break;
+            }
+        } while (opc <= 4);
     }
-    
+
 }

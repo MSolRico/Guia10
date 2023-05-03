@@ -1,4 +1,4 @@
-package Entities;
+package Ejercicio3.Entities;
 
 import java.util.ArrayList;
 

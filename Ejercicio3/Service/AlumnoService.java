@@ -1,12 +1,12 @@
-package Service;
+package Ejercicio3.Service;
 
-import Entities.Alumno;
+import Ejercicio3.Entities.Alumno;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AlumnoService {
 
-    public ArrayList<Alumno> CrearAlumo() {
+    public ArrayList<Alumno> CrearAlumno() {
         Scanner imput = new Scanner(System.in).useDelimiter("\n");
         ArrayList<Alumno> listaAlumnos = new ArrayList();
         boolean opcion = true;

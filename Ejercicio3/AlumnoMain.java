@@ -1,7 +1,7 @@
-package Main;
+package Ejercicio3;
 
-import Entities.Alumno;
-import Service.AlumnoService;
+import Ejercicio3.Entities.Alumno;
+import Ejercicio3.Service.AlumnoService;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -12,8 +12,8 @@ public class AlumnoMain {
 
         AlumnoService as = new AlumnoService();
 
-        ArrayList<Alumno> alumnos = as.CrearAlumo();
-        
+        ArrayList<Alumno> alumnos = as.CrearAlumno();
+
         System.out.println("Ingrese el nombre del alumno a buscar:");
         String name = imput.next();
 
