@@ -1,12 +1,12 @@
-package guia10_ejercicio_5;
+package Ejercicio5;
 
-import entidades.Paises;
+import Ejercicio5.entidades.Paises;
+import Ejercicio5.servicio.PaisesServicio;
+import Ejercicio5.utilities.Comparador;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
-import servicio.PaisesServicio;
-import utilities.Comparador;
 
 public class Guia10_Ejercicio_5 {
 

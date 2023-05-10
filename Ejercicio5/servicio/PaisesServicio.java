@@ -1,6 +1,6 @@
-package servicio;
+package Ejercicio5.servicio;
 
-import entidades.Paises;
+import Ejercicio5.entidades.Paises;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;

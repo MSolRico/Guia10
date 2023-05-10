@@ -1,6 +1,6 @@
-package utilities;
+package Ejercicio5.utilities;
 
-import entidades.Paises;
+import Ejercicio5.entidades.Paises;
 import java.util.Comparator;
 
 public class Comparador {

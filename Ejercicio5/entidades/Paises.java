@@ -1,4 +1,4 @@
-package entidades;
+package Ejercicio5.entidades;
 
 import java.util.Objects;
 
